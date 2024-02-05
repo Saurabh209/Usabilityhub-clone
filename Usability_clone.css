@@ -1,0 +1,815 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+a{
+
+    color: rgb(24,59, 86); 
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: .4s;
+}
+a:hover{
+    color: rgb(0, 162, 255);
+    font-size: 17px;
+}
+a:active{
+    transition-duration: .1s;
+    color: rgb(27, 167, 59);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 1377px;
+}
+#Header{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+#UpperHeader{
+    height: 50px;
+    background-color: rgb(77,173,247);
+    background-image: url(/clone.html/materials/assets/asset\ 32.png);
+    background-size:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#UpperHeader_1{
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: azure;
+}
+#LowerHeader{
+    height:60px;
+    width: 1250px;
+    background-color: rgb(252, 252, 252);
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#LowerHeader_right{
+    height:50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.LowerHeader_right_link{
+    font-family:  "Averta PE", sans-serif;
+    height:50px;
+    width: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#Button_1{
+    font-family: "Averta PE", sans-serif;
+    width: 110px;
+    border: 1px solid black;
+    color: rgb(34, 148, 237) !important;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 6px;
+}
+#Button_2{
+    font-family: "Averta PE", sans-serif;
+    width: 140px;
+    color: white !important;
+    background-color: rgb(34, 148, 237);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 6px;
+}
+#container_1{
+    margin-right:120px;
+    margin-left: 120px;
+    height: 400px;
+    position:relative;
+    top:100px;
+    display: flex;
+    gap: 50px;
+    flex-shrink: initial;
+}
+#Data_Confidently_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#Data_Confidently_container_heading{
+    position:relative;
+    font-family: Averta PE,sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    color: rgb(24, 59, 86);
+    
+    
+}
+#Data_Confidently_container_data{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(87,117,146);
+    
+}
+#Data_Confidently_container_button{
+    color: rgb(255, 255, 255) !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:17px;
+    height: 50px;
+    width: 190px;
+    background-color: rgb(34, 148, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+#companies_section{
+    margin-left: 120px;
+    margin-right: 120px;
+    position: relative;
+    top: 130px;
+   
+}
+#heading{
+    height: 20px;
+    font-family: Averta PE,sans-serif;
+    color: rgb(24, 59, 86);
+}
+#Company_logos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#Godaddy{
+    padding-bottom: 8px;
+}
+#container_0{
+    height: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    position:relative;
+    top: 150px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#upper_container_0{
+    height: 30px;
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24, 59,86);
+    text-align: center;
+   
+    font-size: 32px;
+}
+#lower_container_0{
+    display: flex;
+    height:50px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* sorting section*/
+
+
+
+
+#sorting_section{
+    background-image: url(/clone.html/materials/assets/asset\ 34.svg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    height:600px;
+    position: relative;
+    top: 170px;
+}
+#sorting_section_upper{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#sorting_section_lower{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature_cards{
+
+    height: 300px;
+    width: 350px;
+
+    
+}
+.sorting_section_logo{
+    height: 50px;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.sorting_section_logo:hover{
+    transform: rotate(360deg);
+}
+
+.sorting_section_heading{
+    
+    height: 45px;
+    font-size: 24px;
+    color: rgb(24, 59, 86);
+    font-family:"Averta PE", sans-serif;
+}
+.sorting_section_content{
+    font-family:  Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    height: 45px;
+    color: rgb(87, 117, 146);
+    text-align: center;
+    font-size: 20px;
+}
+.sorting_section_button{
+    border: 1px solid rgb(0, 0, 0);
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: .4s;
+}
+
+.sorting_section_button:hover{
+    height: 40px;
+    width: 140px;
+    border:1px solid rgb(0, 145, 255);
+    
+}
+
+#sorting_section_upper_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#sorting_section_upper_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#sorting_section_upper_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#sorting_section_lower_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#sorting_section_lower_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#sorting_section_lower_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+/*further feature section*/
+
+
+
+
+#further_details{
+    height: 1500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 240px;
+}
+.further_detail_heading_top{
+    color: rgb(24,59,86);
+    font-family:  "Averta PE", sans-serif;
+    font-size: 18px;
+    
+}
+.furhter_detail_heading_bottom{
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,86);
+    font-size: 32px;
+}
+.furhter_detail_paragraph{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(87,117,146);
+    
+}
+
+.further_detail_upper_right_lower_bottom{
+    display: flex;
+
+}
+.further_detail_upper_right_lower_paragraph{
+    font-family: "Averta PE", sans-serif;
+    font-weight: 600;
+    font-size:18px;
+    color:rgb(24,59,86);
+    margin-bottom: 10px;
+}
+
+
+/* upper_1*/
+
+
+#further_detail_upper_1{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#further_detail_upper_1_left{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    
+}
+#further_detail_upper_1_right{
+    height: 500px;
+    width: 500px;
+   
+}
+
+#further_detail_upper_1_right_upper{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#further_detail_upper_1_right_lower{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+
+
+/* upper_2*/
+
+
+#further_detail_upper_2{
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+#further_detail_upper_2_right{
+    
+    display: flex;
+}
+#further_detail_upper_2_left{
+    display: flex;
+    flex-direction: column;
+}
+#further_detail_upper_2_left_upper{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#further_detail_upper_2_left_lower{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+
+/* upper_3*/
+
+
+#further_detail_upper_3{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#further_detail_upper_3_left{
+
+    height: 500px;
+    width: 500px;
+}
+#further_detail_upper_3_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+#further_detail_upper_3_right_lower{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+#further_detail_upper_3_right_upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+
+
+#container_null{
+    height: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    position:relative;
+    top: 290px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#upper_container_null{
+    height: 30px;
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24, 59,86);
+    text-align: center;
+   
+    font-size: 40px;
+}
+#lower_container_null{
+    display: flex;
+    height:50px;
+    font-family: "Averta PE", sans-serif;
+    font-size: 20px;
+    width: 270px;
+    border-radius: 6px;
+    border: 1px solid rgb(20, 170, 245);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.image_tag{
+    position: relative;
+    bottom: 90px;
+    color: rgb(255, 255, 255);
+    font-family: "Averta PE", sans-serif;
+    font-size: 24px;
+}
+
+#image_section{
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position:relative;
+    top:350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#image_section_img1{
+    width: 250px;
+    height: 300px;
+}
+#image_section_img2{
+    width: 250px;
+    height: 300px;
+}
+#image_section_img3{
+    width: 250px;
+    height: 300px;
+}
+#image_section_img4{
+    width: 250px;
+    height: 300px;
+}
+
+
+
+
+
+
+#info_panel{
+    
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+    top: 400px;
+    background-color: rgb(24,59,84);
+    display: flex;
+
+}
+#info_panel_left_upper{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info_panel_left_upper_headings{
+    color: white;
+    font-size: 40px;
+    font-family: "Averta PE", sans-serif;
+}
+#info_panel_left_upper_data{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: white;
+}
+
+
+
+
+#info_panel_left_lower{
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#info_panel_left_bottom_ul{
+    color: white;
+}
+.info_panel_left_bottom_ul_heading{
+    color: rgb(255, 255, 255);
+    font-family: "Averta PE", sans-serif;
+} 
+
+
+
+
+#info_panel_left{
+    margin-left: 200px;
+    
+    height: 600px;
+    width: 600px;
+}
+#info_panel_right{
+    margin-right: 200px;
+    height: 600px;
+    width: 600px;
+}#image_on_image{
+    position: relative;
+    bottom: 440px;
+    padding-left: 190px;
+}
+
+
+#info_panel_left_bottom_lower{
+    height: 100px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#info_panel_left_bottom_lower_button1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 210px;
+    background-color: rgb(34,148,237);
+    border-radius: 4px;
+}
+#info_panel_left_bottom_lower_mid{
+    width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    font-family: "Averta PE", sans-serif;
+    display: flex;
+    align-items: center;
+}
+#info_panel_left_bottom_lower_button2{
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#anchor_tag{
+    color: white;
+    font-family: "Averta PE", sans-serif;
+    font-size: 16px;
+    
+}
+
+
+
+
+/*footer_section*/
+
+
+/* footer_section_content_1*/
+#footer_content_1{
+    height: 290px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer_content1_heading{
+    font-size: 20px;
+    width: 600px;
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,84);
+}
+#footer_content1_data{
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(87,117,146);
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+#footer_content1_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer_content_bottom_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 24px;
+    width: 210px;
+    background-color: rgb(34,148,237);
+    border-radius: 4px;
+}
+#footer_content1_bottom_button_bottom{
+    height: 30px;
+    width: 130px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Button_ke_niche_wala_content{
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,84);
+}
+
+
+/* footer_section_content_2*/
+
+
+#footer_content_2{
+    height: 400px;
+    position: relative;
+    top:550px;
+    background-color: rgb(235,242,250);
+}
+#footer_content_2_main{
+    height: 450px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_content_2_main_1{
+    height: 290px;
+    width: 250px;
+
+}
+#footer_content_2_main_2{
+    height: 290px;
+    width: 250px;
+}
+#footer_content_2_main_3{
+    height: 290px;
+    width: 250px;
+}
+#footer_content_2_main_4{
+    height: 290px;
+    width: 250px;
+}
+
+.footer_content_heading{
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,84);
+    font-size: 20px;
+}
+#product_links{
+    margin-top: 30px;
+}
+.links{
+    height: 30px;
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,84);
+}
+
+
+
+/* footer_section_content_3*/
+
+
+
+#footer_content_3{
+    position: relative;
+    top:550px;
+    height: 60px;
+    background-color: rgb(185,205,228);
+    display: flex;
+}
+#container_left{
+    width: 800px;
+    height:60px ;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+#footer_content_3_left{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer_content_links{
+    font-family: "Averta PE", sans-serif;
+    color: rgb(24,59,84);
+    font-size: 17px;
+}
+#footer_logo_section{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    
+}
+.footer_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 60px;
+}
+
+
+
+
+
+#sticky_logo{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    left: 1420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34,148,237);
+}
